@@ -1,0 +1,8 @@
+
+clone the file name mainFile
+after you download it you have two option.
+
+a) You could compile and run it in you IDE. The IDE would build your execuable from this one file. After that you can now run it
+b) You could use the comand g++ mainfile.cpp main.cpp 0. Thsi create an executable file with all linkages
+
+The result should despay 4 records and successful execution
