@@ -1,8 +1,8 @@
+clone the file named main.cpp.  After you have downloaded the file, you would have two option on how to executive this file.
 
-clone the file name mainFile
-after you download it you have two option.
+a) You could compile and run it in you IDE. Using the IDE you would link and make an executable file, The IDE would build your execuable file
+from this one file you have cloned. After that you can now run it using F1.
+b) You could use the comand g++ filNamee.cpp fileName.cpp -0 fileName.exe. This command would create an executable file with all links
+correctly assigned. Execution command: g++ main.cpp main.cpp -o main.exe
 
-a) You could compile and run it in you IDE. The IDE would build your execuable from this one file. After that you can now run it
-b) You could use the comand g++ mainfile.cpp main.cpp 0. Thsi create an executable file with all linkages
-
-The result should despay 4 records and successful execution
+The result from the file execution should display some records of the successful execution in output file.
