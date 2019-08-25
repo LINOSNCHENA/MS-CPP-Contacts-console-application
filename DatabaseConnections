@@ -1,0 +1,13 @@
+# Database #1
+#database1.datasource.jdbc-url=jdbc:mysql://localhost:3306/presly
+database1.datasource.jdbc-url=jdbc:sqlserver://localhost:1433;databaseName=presly
+database1.datasource.username=root
+database1.datasource.password=Monze2019@
+database1.datasource.maximum-pool-size=30
+
+# Database #2
+database2.datasource.jdbc-url=jdbc:mysql://localhost:3306/catherine
+#database2.datasource.driverClassName=com.mysql.cj.jdbc.Driver
+database2.datasource.username=root
+database2.datasource.password=Monze2019@
+database2.datasource.maximum-pool-size=30
