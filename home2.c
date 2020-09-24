@@ -1,7 +1,5 @@
-//
-//
 //// C-VERSION OF FONE BOOK  v 1.2
-//
+//===========================================
 //#include<mysql.h>
 //#include<stdio.h>
 //int main() {

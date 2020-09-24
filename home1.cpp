@@ -9,7 +9,7 @@ int main(char **args)
 mysql; int state; /* connect to the mySQL database at athens.imaginary.com */
 mysql_init(&mysql); connection = mysql_real_connect(&mysql, "localhost", "root", "Monze@2019", "presly", 0,NULL, 0);
 
-//(!mysql_real_connect(conn, server,	//        user, password, database, 0, NULL, 0))
+
 /* check for a connection error */ if( connection == NULL ) { /* print the error message */
 	printf(mysql_error(&mysql)); return 1; }
 

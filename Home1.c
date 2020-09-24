@@ -1,9 +1,5 @@
-//
-//
-//
 //// C-VERSION OF FONE BOOK  v 1.1
-//
-//
+/// ===================================
 ////#include "config.h"
 //
 //#include <stdlib.h>
@@ -19,7 +15,6 @@
 //        fprintf(stderr, "could not initialize MySQL client library\n");
 //        exit(1);
 //    }
-//
 //    mysql = mysql_init(mysql);
 //
 //    if (!mysql) {
@@ -42,10 +37,7 @@
 //    else {
 //        puts("Connect OK\n");
 //    }
-//
 //    mysql_close(mysql);
-//
 //    mysql_library_end();
-//
 //    return EXIT_SUCCESS;
 //}
