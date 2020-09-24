@@ -1,0 +1,9 @@
+﻿  homeFFF2.c
+  homeFFF1.c
+  Generating Code...
+  homeCPP1.cpp
+C:\Users\linos\source\repos\homecpp1\homeCPP1.cpp(19,8): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'uint64_t'
+C:\Users\linos\source\repos\homecpp1\homeCPP1.cpp(19,8): message : consider using '%lld' in the format string
+C:\Users\linos\source\repos\homecpp1\homeCPP1.cpp(19,8): message : consider using '%Id' in the format string
+C:\Users\linos\source\repos\homecpp1\homeCPP1.cpp(19,8): message : consider using '%I64d' in the format string
+  homecpp1.vcxproj -> C:\Users\linos\source\repos\homecpp1\x64\Debug\homecpp1.exe
