@@ -145,6 +145,7 @@
     <ClCompile Include="home1.cpp" />
     <ClCompile Include="home2.c" />
     <ClCompile Include="home3.c" />
+    <ClCompile Include="home4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="credentials.cnf" />
