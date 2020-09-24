@@ -1,12 +1,12 @@
-# C vs. C++ PRAGRAM IN DBE ACCESS SPEED (Monitoring)
+# C vs. C++ PRAGRAM IN DB ACCESS SPEED (Monitoring)
 =====================================================
 
 ## 1. TECH STACK
 ===================
 
 1. Visual studio
-2. C++ Compailer
-3. Library
+2. C/C++ Compailer
+3. Libraries
 4. libmysql.dll
 5. mysqlcppconn.dll
 
@@ -28,9 +28,10 @@ TBA...
 ## 4. EXECUTION COMMANDS
 ============================
 ```
-gcc homeCPP1.cpp -o homeCPP1
-gcc homeCPP1.cpp -o homeCPP1
-gcc homeCPP1.cpp -o homeCPP1
+g++ homeCPP1.cpp -o homeCPP1
+gcc homeCPP1.c -o homeCPP1
+gcc homeCPP1.c -o homeCPP1
+gcc book.c -o bk
 
 ```
 
@@ -47,7 +48,4 @@ Here are screen-shots from the output of application's console
 ![ Muntu App SMS # 1 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(1).png)
 ![ Muntu App SMS # 2 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(2).png)
 ![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(3).png)
-
-
-
 
