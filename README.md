@@ -47,3 +47,7 @@ Here are screen-shots from the output of application's console
 ![ Muntu App SMS # 1 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(1).png)
 ![ Muntu App SMS # 2 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(2).png)
 ![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(3).png)
+
+
+
+
