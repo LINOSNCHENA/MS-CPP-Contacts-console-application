@@ -1,4 +1,5 @@
 # Device Monitor for a Control systems (Monitoring)
+=====================================================
 
 In this application sensors are collectiong data and sending it to a control point
 This is an application that is used to monitor four different types of sensors that are used in monitoring the enviroment for a given data center illustrative example. The collected data is then send to the control center. 
@@ -9,3 +10,16 @@ This application sends data record to control at specific intervals.
 Four threads and two classes are used to implement the task of the requiremends for these monitors.
 
 NOTE: This task has a java version and Cpp version. Try to check on the other file as well.
+
+
+# EXECUTION COMMANDS
+==================================
+```
+gcc homeCPP1.cpp -o homeCPP1
+gcc homeCPP1.cpp -o homeCPP1
+gcc homeCPP1.cpp -o homeCPP1
+
+```
+
+# EXECUTION COMMANDS
+==================================

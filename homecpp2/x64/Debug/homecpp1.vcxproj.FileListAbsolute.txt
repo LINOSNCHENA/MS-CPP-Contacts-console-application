@@ -1,2 +1,0 @@
-C:\Users\linos\source\repos\homecpp1\x64\Debug\homecpp1.exe
-C:\Users\linos\source\repos\homecpp1\x64\Debug\homecpp1.pdb
