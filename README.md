@@ -28,9 +28,9 @@ TBA...
 ## 4. EXECUTION COMMANDS
 ============================
 ```
-g++ homeCPP1.cpp -o homeCPP1
-gcc homeCPP1.c -o homeCPP1
-gcc homeCPP1.c -o homeCPP1
+g++ home1.cpp -o h1
+gcc home2.c -o h2
+gcc home3.c -o h3
 gcc book.c -o bk
 
 ```
@@ -45,7 +45,6 @@ In this application sensors are collecting data and sending it to a control poin
 
 Here are screen-shots from the output of application's console
 
-![ Muntu App SMS # 1 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(1).png)
-![ Muntu App SMS # 2 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(2).png)
-![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(3).png)
-
+![ Muntu App SMS # 1 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/pages%20(1).png)
+![ Muntu App SMS # 2 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/pages%20(2).png)
+![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/pages%20(3).png)
