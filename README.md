@@ -1,19 +1,30 @@
-# Device Monitor for a Control systems (Monitoring)
-=====================================================
+# C++ vS C PRAGRAM IN DATABASE ACCESS SPEED (Monitoring)
+========================================================
 
-In this application sensors are collectiong data and sending it to a control point
-This is an application that is used to monitor four different types of sensors that are used in monitoring the enviroment for a given data center illustrative example. The collected data is then send to the control center. 
-This data include measurments of light intensity, temperature, pressure and power levels. 
-These measurments are taken to be very vital for a data center monitoring. 
-A huge change in any of these measurments could be disastaerous for a data center. Hence this routinme gives warning for the monitors to take caution if such huge change beyoud a certain limit action has to be take to control that huge change.
-This application sends data record to control at specific intervals. 
-Four threads and two classes are used to implement the task of the requiremends for these monitors.
+## 1. TECH STACK
+===================
 
-NOTE: This task has a java version and Cpp version. Try to check on the other file as well.
+1. Visual studio
+2. C++ Compailer
+3. Library
+4. libmysql.dll
+5. mysqlcppconn.dll
 
 
-# EXECUTION COMMANDS
+## 2. ENVIROMENTAL REQUITREMENTS
 ==================================
+DGFDGDDGHGHGHGHGHGHGGHGG.
+TBA...
+
+
+## 3. REASONS
+===============
+FGVFGBFGFGFGFGBFGFGFGF.
+TBA...
+
+
+## 4. EXECUTION COMMANDS
+============================
 ```
 gcc homeCPP1.cpp -o homeCPP1
 gcc homeCPP1.cpp -o homeCPP1
@@ -21,5 +32,16 @@ gcc homeCPP1.cpp -o homeCPP1
 
 ```
 
-# EXECUTION COMMANDS
-==================================
+## 5. PURPOSE AND DISCRIPTION
+===============================
+In this application sensors are collecting data and sending it to a control point. The collected data is then sent to the control center.  The sending speed is different. These measurements are taken to be very vital for a data center monitoring. A huge change in any of these measurements could be disastrous for a data center. Hence this routine gives warning for the monitors to take caution if such huge change beyond a certain limit action must be taken to control that huge change. This application sends data record to control at specific intervals. Four threads and two classes are used to implement the task of the requirements for these monitors. This task has a java version, Cpp version and a C (See code). Three API considered.
+
+
+## 6. APPLICATION CONSOLE- USER INTERFACE 
+===========================================
+
+Here are screen-shots from the output of application's console
+
+![ Muntu App SMS # 1 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(1).png)
+![ Muntu App SMS # 2 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(2).png)
+![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Monitoring-data-from-sensors-in-Automation-Control/blob/master/embedx/resourcex1/pages%20(3).png)
