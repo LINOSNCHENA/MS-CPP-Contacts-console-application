@@ -45,6 +45,7 @@ In this application sensors are collecting data and sending it to a control poin
 
 Here are screen-shots from the output of application's console
 
-![ Muntu App SMS # 1 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/pages%20(1).png)
-![ Muntu App SMS # 2 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/pages%20(2).png)
-![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/pages%20(3).png)
+![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/page%20(1).png)
+![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/page%20(2).png)
+![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/page%20(3).png)
+![ Muntu App SMS # 3 ](https://github.com/LINOSNCHENA/Cpp-Database-speed-comparison/blob/master/resourcex/page%20(4).png)
