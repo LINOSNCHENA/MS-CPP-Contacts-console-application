@@ -15,19 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mySQLPG.cnf">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="postg1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="postg2.c++">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SQL2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="SQL1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BOOST1.cpp">
@@ -40,6 +31,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="crudMySQL4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crudMySQL_Pwd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

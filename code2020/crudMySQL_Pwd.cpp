@@ -21,7 +21,7 @@
 //        return EXIT_FAILURE;
 //    }
 //
-//    mysql_options(mysql, MYSQL_READ_DEFAULT_FILE, (void*)"./myCredentials.cnf");
+//    mysql_options(mysql, MYSQL_READ_DEFAULT_FILE, (void*)"./addPasswd.cnf");
 //
 //    if (!mysql_real_connect(mysql,       /* MYSQL structure to use */
 //        NULL,         /* server hostname or IP address */
