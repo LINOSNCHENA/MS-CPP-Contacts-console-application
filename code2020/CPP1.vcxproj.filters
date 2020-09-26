@@ -36,13 +36,10 @@
     <ClCompile Include="BOOST2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="crudMySQL1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="crudMySQL2.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="crudMySQL3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crudMySQL4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -143,9 +143,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BOOST2.cpp" />
-    <ClCompile Include="crudMySQL1.cpp" />
-    <ClCompile Include="crudMySQL2.cpp" />
     <ClCompile Include="crudMySQL3.cpp" />
+    <ClCompile Include="crudMySQL4.cpp" />
     <ClCompile Include="SQL1.c" />
     <ClCompile Include="SQL2.cpp" />
     <ClCompile Include="postg1.c" />
