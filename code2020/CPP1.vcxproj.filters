@@ -27,6 +27,12 @@
     <ClCompile Include="home4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="house3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mySQLPG.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="credentials.cnf">
