@@ -1,6 +1,5 @@
-//// CHH-VERSION OF FONE BOOK  v 1.1
-////  ===================================
-////#include "config.h"
+////	CHH-VERSION OF FONE BOOK  v 1.1
+////   ==================================
 //
 //#include <stdlib.h>
 //#include <stdio.h>
@@ -22,7 +21,7 @@
 //        return EXIT_FAILURE;
 //    }
 //
-//    mysql_options(mysql, MYSQL_READ_DEFAULT_FILE, (void*)"./credentials.cnf");
+//    mysql_options(mysql, MYSQL_READ_DEFAULT_FILE, (void*)"./myCredentials.cnf");
 //
 //    if (!mysql_real_connect(mysql,       /* MYSQL structure to use */
 //        NULL,         /* server hostname or IP address */
@@ -32,12 +31,16 @@
 //        0,           /* port number, 0 for default */
 //        NULL,        /* socket file or named pipe name */
 //        CLIENT_FOUND_ROWS /* connection flags */)) {
+//        printf("I=============================FAILURE =================================I\n");
 //        puts("Connect ZAMBIA failed\n");
 //    }
 //    else {
+//        printf("I=============================SUCCESS==================================I\n");
 //        puts("Connect OK\n");
+//   
 //    }
 //    mysql_close(mysql);
+//       printf("I=============================MySQL_END==================================I\n");
 //    mysql_library_end();
 //    return EXIT_SUCCESS;
 //}

@@ -15,28 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="home1.cpp">
+    <ClCompile Include="mySQLPG.cnf">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="home2.c">
+    <ClCompile Include="postg1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="home3.c">
+    <ClCompile Include="postg2.c++">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="home4.cpp">
+    <ClCompile Include="SQL2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="house3.c">
+    <ClCompile Include="SQL1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="mySQLPG.cpp">
+    <ClCompile Include="BOOST1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BOOST2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crudMySQL1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crudMySQL2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crudMySQL3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="credentials.cnf">
+    <None Include="addPasswd.cnf">
       <Filter>Source Files</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="addContacts.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

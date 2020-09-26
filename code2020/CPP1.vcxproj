@@ -116,7 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Program Files\MySQL\Connector C++ 8.0\include;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\PostgreSQL\12\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\Connector C++ 8.0\include;C:\Program Files\MySQL\MySQL Connector C++ 8.0\include\jdbc;C:\Program Files\MySQL\MySQL Server 8.0\include;C:\Program Files\PostgreSQL\12\include;C:\Users\linos\Downloads\boost_1_62_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,15 +142,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="home1.cpp" />
-    <ClCompile Include="home2.c" />
-    <ClCompile Include="home3.c" />
-    <ClCompile Include="home4.cpp" />
-    <ClCompile Include="house3.c" />
-    <ClCompile Include="mySQLPG.cpp" />
+    <ClCompile Include="BOOST2.cpp" />
+    <ClCompile Include="crudMySQL1.cpp" />
+    <ClCompile Include="crudMySQL2.cpp" />
+    <ClCompile Include="crudMySQL3.cpp" />
+    <ClCompile Include="SQL1.c" />
+    <ClCompile Include="SQL2.cpp" />
+    <ClCompile Include="postg1.c" />
+    <ClCompile Include="mySQLPG.cnf" />
+    <ClCompile Include="postg2.c++" />
+    <ClCompile Include="BOOST1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="credentials.cnf" />
+    <None Include="addPasswd.cnf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="addContacts.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

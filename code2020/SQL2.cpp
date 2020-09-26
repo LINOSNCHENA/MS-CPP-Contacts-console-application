@@ -1,3 +1,6 @@
+//// CHH-VERSION OF FONE BOOK  v 1.2
+////  ===================================
+//
 //#include <mysql.h>
 //#include <iostream>
 //#include <iomanip>
@@ -32,6 +35,7 @@
 //        return 1;
 //    }
 //    res = mysql_store_result(conn);
+//    printf("============================x1=============================\n");
 //    cout << "MySQL Tables in mysql database." << endl << endl;
 //    while ((row = mysql_fetch_row(res)) != NULL)
 //    {
@@ -42,8 +46,9 @@
 //            << setw(18) << row[3] << endl;
 //    }
 //    cout << endl << endl;
+//    printf("==============================x2===========================\n");
 //    ifstream infile;
-//    infile.open("Instrument.txt");
+//    infile.open("contactsbook.txt");//  infile.open("Instrument.txt");
 //    if (infile.fail())
 //    {
 //        cout << "ERROR. Could not open file!" << endl;
@@ -54,9 +59,20 @@
 //    infile.seekg(0, infile.beg);
 //    string instnum, insttype, maker, year, plID, name, salary, startdate;
 //    string rating;
-//    string instrument = "INSERT INTO Instrument (InstrumentID, InstrumentType, MakerName, YearMade) VALUES ( '" + instnum + "', '" + insttype + "', '" + maker + "', '" + year + "')";
+//    int pnumber1, pnumber2;
+//   // string instrument = "INSERT INTO contactsbook (pname, pnumber1, pnumber2) VALUES ( " + instnum, pnumber1, pnumber2 ")";
+//    // statement = connection.prepareStatement(FIND_CONTACT_BY_NAME + pname + "%'");
+//    //  prep_stmt = con->prepareStatement("INSERT INTO product(name,price,created) VALUES(?,?,NOW())");
 //    string player = "INSERT INTO Player (PlayerID, Name, Salary, StartDate) values (plID, name, salary, startdate)";
 //    string plays = "INSERT INTO Plays (InstrumentID, PlayerID, Rating) values (instnum, plID, rating)";
+//
+//
+//   // CREATE TABLE CONTACTSBOOK(id SERIAL PRIMARY KEY, pname TEXT NOT NULL, pnumber1 BIGINT NOT NULL, pnumber2 BIGINT);
+//  //  INSERT INTO CONTACTSBOOK(pname, pnumber1, pnumber2) VALUES('POLICE-EMERGENCE', 1992020, 223467890), ('HOSPITAL-EMERGENCY', 2882020, 12356789);
+//
+//  //  string instrument = "INSERT INTO Instrument (InstrumentID, InstrumentType, MakerName, YearMade) VALUES ( '" + instnum + "', '" + insttype + "', '" + maker + "', '" + year + "')";
+//   // string player = "INSERT INTO Player (PlayerID, Name, Salary, StartDate) values (plID, name, salary, startdate)";
+//  //  string plays = "INSERT INTO Plays (InstrumentID, PlayerID, Rating) values (instnum, plID, rating)";
 //    //   mysql_query(conn, "DELETE FROM Instrument WHERE MakerName='maker'");
 //    while (infile)
 //    {
@@ -64,11 +80,11 @@
 //        cout << instnum << endl;
 //        infile >> insttype;
 //        cout << insttype << endl;
-//        infile >> maker;
-//        cout << maker << endl;
+//       // infile >> maker;
+//      //  cout << maker << endl;
 //        infile >> year;
 //        cout << year << endl;
-//        query_state = mysql_query(conn, instrument.c_str());
+//      //  query_state = mysql_query(conn, instrument.c_str());
 //    }
 //
 //    if (query_state != 0)
