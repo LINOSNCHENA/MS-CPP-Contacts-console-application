@@ -1,8 +1,8 @@
-# C vs. C++ PRAGRAM IN DB ACCESS SPEED (Monitoring)
-=====================================================
+# Cplusplus DATABASE MANIPULATION CONTACTS BOOK
+================================================
 
-## 1. TECH STACK
-===================
+## 1. TECH STACK REQUIREMENTS
+===============================
 
 1. Visual studio
 2. C/C++ Compailer
@@ -11,27 +11,26 @@
 5. mysqlcppconn.dll
 
 
-## 2. ENVIROMENTAL REQUITREMENTS
+## 2. ENVIROMENTAL REQUIREMENTS
 ==================================
 
 DGFDGDDGHGHGHGHGHGHGGHGG.
 TBA...
 
 
-## 3. REASONS
-===============
-
-FGVFGBFGFGFGFGBFGFGFGF.
-TBA...
-
+## 3. LIBRARIES AND DLL NEEDED
+===============================
+1. LIBQP.DLL
+2. LIBMYSQL.DLL
+3. LIBICONV-2.DLL
+2. LIBINTL-8.DLL
 
 ## 4. EXECUTION COMMANDS
 ============================
 ```
-g++ home1.cpp -o h1
-gcc home2.c -o h2
-gcc home3.c -o h3
-gcc book.c -o bk
+g++ home1.cpp -o BK1
+gcc home2.c -o BK2
+gcc book.c -o BK3
 
 ```
 

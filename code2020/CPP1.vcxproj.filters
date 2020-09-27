@@ -36,9 +36,24 @@
     <ClCompile Include="crudMySQL11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="crudPostg1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crudPostg2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crudPostg3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="crudPostg4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="addPasswd.cnf">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="postgresql1.sql">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
