@@ -15,37 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="postg1.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="postg2.c++">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="BOOST1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BOOST2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="crudMySQL_Pwd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="crudMySQL10.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="crudMySQL11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="crudPostg1.c">
+    <ClCompile Include="zedcrudMySQL_Pwd.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="crudPostg2.c">
+    <ClCompile Include="zedcrudPOSTGR_Pwd.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="crudPostg3.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="crudPostg4.c">
+    <ClCompile Include="crudPOSTGRES1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
