@@ -5,35 +5,29 @@
 ===============================
 
 1. C/C++ Compailer
-2. C++ Compiler
-3. libmysql.lib
-4. mysqlcppconn.lib
-
+2. libmysql.lib
+3. mysqlcppconn.lib
 
 ## 2. ENVIROMENTAL REQUIREMENTS
 ==================================
 
-1. Visual Studio
-2. Visual Studio Code
-3. TBA...
-
+1. Visual Studio IDE
+2. Visual Studio Code IDE
 
 ## 3. LIBRARIES AND DLL NEEDED
 ===============================
 
 1. LIBQP.DLL
 2. LIBMYSQL.DLL
-3. LIBICONV-2.DLL
-4. LIBINTL-8.DLL
-5. mysqlcppconn.lib
+3. LIBINTL-8.DLL
+4. LIBICONV-2.DLL
 
 ## 4. EXECUTION COMMANDS
 ============================
 
 ```
 g++ home1.cpp -o BK1
-gcc home2.c -o BK2
-gcc book.c -o BK3
+gcc book1.c   -o BK2
 
 ```
 
