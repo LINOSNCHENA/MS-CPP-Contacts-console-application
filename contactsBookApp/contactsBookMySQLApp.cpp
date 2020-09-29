@@ -139,7 +139,7 @@ void recordAdd()
     system("cls");
 }
 
-void recordViews() ////////////////////////////////////////////////////////////////////////////////////   READING  #2
+void recordViews() 
 {
     conn = mysql_init(0);
     conn = mysql_real_connect(conn, server, user, password, database, 0, 0, 0);
@@ -166,9 +166,8 @@ void recordViews() /////////////////////////////////////////////////////////////
     system("cls");
 }
 
-void recordFind() /////////////////////////////////////
+void recordFind() 
 {
-
     conn = mysql_init(0);
     conn = mysql_real_connect(conn, server, user, password, database, 0, 0, 0);
 
@@ -206,7 +205,7 @@ void recordFind() /////////////////////////////////////
     system("cls");
 }
 
-void recordUpdate() //////////////////////////////////////////////////////////////////////////////////////////////  #4
+void recordUpdate() 
 {
     conn = mysql_init(0);
     conn = mysql_real_connect(conn, server, user, password, database, 0, 0, 0);
@@ -250,7 +249,7 @@ void recordUpdate() ////////////////////////////////////////////////////////////
     system("cls");
 }
 
-void recordStars() /////
+void recordStars() 
 {
     conn = mysql_init(0);
     conn = mysql_real_connect(conn, server, user, password, database, 0, 0, 0);
@@ -264,7 +263,7 @@ void recordStars() /////
         cin >> id;
 
         stringstream ss;
-        ss << "UPDATE CONTACTSBOOK SET pnumber1 = pstars + " << pstars << " WHERE id = '" << id << "'";
+        ss << "UPDATE CONTACTSBOOK SET pstars = pstars + " << pstars << " WHERE id = '" << id << "'";
         string query = ss.str();
 
         const char *q = query.c_str();
@@ -287,7 +286,7 @@ void recordStars() /////
     system("cls");
 }
 
-void recordDelete() ///////////////////////////////////////////////////////  INCREASING ELEMENTS  #1
+void recordDelete() 
 {
     int id, qstate = 0;
     string pname;
@@ -320,9 +319,9 @@ void recordDelete() ///////////////////////////////////////////////////////  INC
     system("pause");
     system("cls");
 }
-void recordReset() //////////////////////////////////////////////////////////////////////////   READING  #2
-{
 
+void recordReset() 
+{
     conn = mysql_init(0);
     conn = mysql_real_connect(conn, server, user, password, database, 0, 0, 0);
     if (conn)
